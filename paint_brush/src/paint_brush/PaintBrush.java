@@ -81,8 +81,8 @@ public class PaintBrush extends JFrame implements MouseListener, MouseMotionList
         styleComboBox = new JComboBox<>(styleOptions);
 
         // Create color buttons
-        colorButtons = new JButton[6];
-        Color[] colors = {Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.BLACK, Color.ORANGE};
+        colorButtons = new JButton[7];
+        Color[] colors = {Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.BLACK, Color.ORANGE, Color.WHITE};
         for (int i = 0; i < colorButtons.length; i++) {
             colorButtons[i] = new JButton();
             colorButtons[i].setBackground(colors[i]);
